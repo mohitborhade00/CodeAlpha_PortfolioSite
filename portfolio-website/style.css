@@ -78,3 +78,14 @@ section {
 .project-card:hover {
     transform: translateY(-10px);
 }
+
+@media(max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        background: #111;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+}
